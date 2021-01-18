@@ -2,7 +2,7 @@ body {
 	font: 15px/1.5 Futura, Tahom, sans-serif;
 	padding: 0;
 	margin: 0;
-	background-color: #f1eef6;
+	background-color: #333;
 }
 
 ul{
@@ -17,7 +17,7 @@ ul{
 }
 
 header{
-	background:#5b2e65;
+	background:#f1eef6;
 	color:#fff;
 	padding-top:30px;
 	min-height:70px;
@@ -26,7 +26,7 @@ header{
 
 
 header a{
-	color: #fff;
+	color: #333;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-style: 16px;
@@ -57,8 +57,7 @@ header .highlight, header .current a {
 }
 
 header a:hover{
-	color: #ccc;
-	font-weight:bold;
+	color: light;
 }
 
 #showcase{
