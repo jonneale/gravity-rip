@@ -1,5 +1,5 @@
 body {
-	font: 15px/1.5 Futura, Tahom, sans-serif;
+	font: 15px/1.5 'Courier new', sans-serif;
 	padding: 0;
 	margin: 0;
 	background-color: #f1eef6;
@@ -73,19 +73,19 @@ header a:hover{
 }
 
 .dark-background{
-	background-color:#333;
+	background-image: url('/images/bg.png');
+	background-position: center;
+
 }
 #showcase{
 	min-height: 400px;
 	max-width: 800px;
 	margin:auto;
-	background:url("../images/small-background.png") no-repeat top center;
 	background-color:#333;
 	text-align: center;
 }
 
 #showcase h1 {
-	margin-top:100px;
 	font-size: 55px;
 	margin-bottom: 10px;
 	color: #fff;
@@ -126,7 +126,6 @@ header a:hover{
 
 footer {
 	padding: 20px;
-	margin-top: 20px;
 	color: #fff;
 	background-color: #333;
 }
@@ -142,13 +141,14 @@ footer {
 		width:100%;
 	}
 
+	.hero { display:none; }
+
 	.box p {
 		width:95%;
 	}
 
 	#showcase h1{
 		margin-top: 0px;
-		padding-top: 20px;
 	}
 
 	#showcase h2, #showcase h3, #showcase p{
